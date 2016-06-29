@@ -4,7 +4,6 @@
 if "%1" == "/?" goto Usage
 if "%~1" == "" goto Usage
 
-:: test
 :: Initialize build configuration
 set BUILD.ARM=N
 set BUILD.x86=N
